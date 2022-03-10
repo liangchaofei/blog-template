@@ -1,0 +1,118 @@
+.article-Drawer{
+    .article-box{
+        text-align: initial;
+        border: 1px solid #ddd;
+        // display: flex;
+    }
+    .left-editor-div{
+        float: left;
+        width: 60%;
+        min-height: 700px;
+        
+    }
+    .right-views-div{
+        .yulan{
+            text-align: center;
+            padding-bottom: 10px;
+
+        }
+        // float: left;
+        // width: 40%;
+        padding: 10px;
+        flex: 1;
+        height: auto;
+        min-height: 700px;
+        background-color: #fafafa;
+    }
+    
+}
+.article-list-c{
+    .title-ccc{
+        max-width: 200px;
+        overflow:hidden;
+        display: block;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    table{
+        text-align: center;
+        thead th{
+            text-align: center;
+        }
+    }
+}
+.markdown-views-box{
+    text-align: initial;
+     display: none;
+    position: absolute;
+    z-index: 9999;
+    width:600px;
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+    right: 30px;
+    top: 70px;
+    // width: 100px;
+    // height: 500px;
+     background:rgba(256,256,256,0.7);
+    border: 2px dashed #333;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+
+    .mv-ti{
+        position: relative;
+        p{
+            font-size:16px;
+            text-align: center;
+            font-weight: 800;
+            border-bottom: 1px dashed #ddd;
+            height: 40px;
+            line-height: 40px;
+            span{
+                color:#1890ff ;
+            }
+        }
+        .close{
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            z-index: 9999;
+        }
+        
+    }
+    .content-box{
+        flex: 1;
+        padding: 10px;
+        overflow-y: auto;
+    }
+}
+.article-detail-views-8ui{
+    .toutu{
+        max-width: 560px;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        height: auto;
+    }
+    .top-div {
+        padding-bottom: 20px;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }    
+    .tit{
+        font-size: 32px;
+        padding: 10px;
+        padding-top: 30px;
+        font-weight: 800;
+    }
+    .fa{
+        font-size: 15px;
+        color: #666;
+        padding-top: 10px;
+    }
+}
+.article-edit-box{
+    text-align: left;
+    border: 1px solid #ddd;
+}
